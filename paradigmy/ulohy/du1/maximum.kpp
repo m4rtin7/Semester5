@@ -1,0 +1,40 @@
+prikaz vzad
+       vlavo
+       vlavo
+*prikaz
+
+prikaz krokVzad
+       vzad
+       krok
+       vzad
+*prikaz
+
+prikaz kopiruj1
+       ak je tehla tak
+          krok
+          kopiruj1
+          poloz
+          krokVzad
+       inak
+           vpravo
+           krok
+           vlavo
+           kopiruj2
+       *ak
+*prikaz
+
+prikaz kopiruj2
+       ak je tehla tak
+          krok
+          kopiruj2
+          poloz
+          krokVzad
+       inak
+           vpravo
+           krok
+           vlavo
+           krokVzad
+       *ak
+*prikaz
+
+kopiruj1

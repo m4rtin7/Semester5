@@ -1,0 +1,14 @@
+prikaz prelozVlavo
+       ak je tehla tak
+              zober
+              vlavo
+              poloz
+              vpravo
+              prelozVlavo
+       *ak
+*prikaz
+
+opakuj 3 krat
+       prelozVlavo
+       vlavo
+*opakuj

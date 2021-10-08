@@ -1,0 +1,4 @@
+1. karel postupne preklada kopu pred sebou smerom vlavo az kym takto neprelozi vsetky kopy na jednu, nevyhoda je, ze niektore kocky prelozi az 3krat, ale ucel splni :)
+2. karel sa rekurzivne hlada koniec prveho radu, na konci sa pozrie ci nie je rad vedla este dlhsi ak ano rekurzivne prida na jeho koniec, potom pri vynarani z rekurzie uklada novy rad s maximom
+4. karel postupne poklada kocku do rohu po svojej lavej ruke to spravi tym, ze pomocou rek. vnorenia sa dostane do daneho rohu a polozi ju, pri vynarani sa vrati spat do startovnej pozicie
+potom sa otoci o 90 stupnov a postup opakuje toto sa deje 4 krat kedze mame 4 rohy, po dokonceni je spat na starte
