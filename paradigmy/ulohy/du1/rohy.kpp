@@ -1,0 +1,38 @@
+prikaz vzad
+       vlavo
+       vlavo
+*prikaz
+
+prikaz stenaVlavo
+       ak je stena tak
+          vlavo
+          stenaPoloz
+          vpravo
+       inak
+           krok
+           stenaVlavo
+           krok
+       *ak
+*prikaz
+
+prikaz stenaPoloz
+       ak je stena tak
+          vzad
+          krok
+          vzad
+          poloz
+          krok
+          vzad
+       inak
+           krok
+           stenaPoloz
+           krok
+       *ak
+
+*prikaz
+
+opakuj 4 krat
+       stenaVlavo
+       vlavo
+*opakuj
+       
