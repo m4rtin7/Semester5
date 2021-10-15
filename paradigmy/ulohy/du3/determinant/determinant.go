@@ -59,7 +59,7 @@ func det(mat Matrix) int64 {
 
 func main() {
 	var mat Matrix
-	mat.N = 5
+	mat.N = 10
 	arr := make([][]int, mat.N)
 	for i := 0; i < mat.N; i++ {
 		arr[i] = make([]int, mat.N)

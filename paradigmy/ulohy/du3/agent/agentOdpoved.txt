@@ -1,0 +1,5 @@
+1. kombinacne cisla
+2. lebo vytahuje hodnoty z pola NxN ktore znazornuje pascal. trojuholnik
+3. agent uchovava hodnotu na ktorom riadku a stlpci je potom caka na input do channelov z nich nasledne vypocita comb. cislo a posuva dalej (to uz nerobi priamo agent, on len drzi indexy a channely, komunikuje)
+4. vyzera, ze NxN
+5. pascal triangel(aj ked tu skor stvorec :) ), kombinacne cisla

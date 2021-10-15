@@ -4,6 +4,9 @@ func Pic(dx, dy int) [][]uint8 {
 	rv := make([][]uint8, dy)
 	for i := range rv {
 		rv[i] = make([]uint8, dx)
+		for j := range rv {
+			rv[i][j] = 0
+		}
 	}
 	return rv
 }
